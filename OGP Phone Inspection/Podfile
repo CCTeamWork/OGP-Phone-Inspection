@@ -1,0 +1,14 @@
+platform :ios,'8.0'
+target 'OGP Phone Inspection' do
+pod 'AFNetworking','~> 3.0'
+pod 'Masonry'
+pod 'SDWebImage', '~> 3.7'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'SSKeychain'
+pod 'FMDB'
+pod 'SBJson'
+pod 'IQKeyboardManager'
+pod 'YYModel'
+pod 'BaiduMapKit'
+pod 'MJRefresh'
+end

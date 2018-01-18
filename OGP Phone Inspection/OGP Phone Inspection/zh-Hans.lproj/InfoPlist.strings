@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  OGP Phone Inspection
+
+  Created by 张建伟 on 17/6/22.
+  Copyright © 2017年 张国洋. All rights reserved.
+*/
+//CFBundleDisplayName = "手机巡检";
+////   权限
+//NSLocationWhenInUseUsageDescription="我们需要通过您的位置信息去判断您是否到达了该巡检设备";
+//NSLocationAlwaysUsageDescription="我们需要通过您的位置信息去判断您是否到达了该巡检设备";
+//NSCameraUsageDescription="是否允许此App使用您的相机？";
+//NSMicrophoneUsageDescription="是否允许此App使用您的麦克风？";

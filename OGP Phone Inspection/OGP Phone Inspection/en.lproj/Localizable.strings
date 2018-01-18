@@ -1,0 +1,246 @@
+/* 
+  Localizable.strings
+  OGP Phone Inspection
+
+  Created by 张建伟 on 17/6/22.
+  Copyright © 2017年 张国洋. All rights reserved.
+*/
+//    MapdownViewController
+"Map_city_list"="City list";
+"Map_city_downing"="Downloading";
+"Map_down_city_alert_show"="Download this map or not?";
+"Map_city_had_down"="This map already downloaded";
+"Map_city_downing_arm"="downloading:";
+"Map_arm"="%";
+"Map_down_stop"="Stop downloaing";
+"Map_down_finish"="Done";
+"Map_map_list"="Map list";
+"Map_map_down_admin"="Download management";
+"Map_map_down_new"="Updateable";
+"Map_map_delete"="Delete map";
+"Map_map_find"="View map";
+"Map_find_map"="View offline map";
+"Map_show_map_access"="The number of offline map package imported successfully：";
+"Map_show_map"="Import offline map";
+"Map_hot_city"="Popular city";
+"Map_all_city"="The whole country";
+"Map_had_best_new"="The map is the latest version";
+//  QRCodeViewController
+"QRCode_title"="QR code";
+"QRCode_record_ture_code"="Standard QR code: read card already";
+"QRCode_post_access"="Send QR code successfully";
+"QRCode_post_field"="Send QR code unsuccessfully";
+"QRCode_message"="Put QR code in the frame";
+"QRCode_torch_open"="Open flashlight";
+"QRCode_torch_message"="No flashlight in device";
+
+
+
+
+//   ALL
+"ALL_no_data"="no data!";
+"All_sure"="confirm";
+"All_cancel"="cancel";
+"All_home_title"="home";
+"All_task_title"="task";
+"All_event_title"="event";
+"All_scan_title"="scan";
+"All_event_record"="event records";
+"All_nettime_field"="timing failure";
+"All_time_field_message"="Please switch on “set automatically”in setting/general/date&time";
+"All_isknow"="got it";
+"All_alert_title"="remind";
+"All_keep"="save";
+"All_finsih"="完成";
+//   Login
+"Login_login_alert"="login.....";
+"Login_no_company"="this company name is not existed";
+"Login_name_error"="worng user name";
+"Login_pass_error"="worng password";
+"Login_changename_error"="replacement person is not existed";
+"Login_login_error"="login failure";
+"Login_error_ip_net"="please keep network is good ,IP address is correct";
+"Login_image_title"="let management become Simple, efficient, free";
+"Login_company_field_text"="please entry company name";
+"Login_name_field_text"="please entry user name";
+"Login_pass_field_text"="please entry password";
+"Login_change_field_text"="please entry planed employee’s name";
+"Login_remeber_pass"="remember password";
+"Login_auto_login"="login automatically";
+"Login_login"="login";
+"Login_change_btn_title"="covering for others";
+"Login_self_btn_title"="employee as plan";
+"Login_now_verson"="current version";
+"Login_company_nil"="company name can not be blank";
+"Login_name_nil"="account can not be blank";
+"Login_pass_nil"="password needs 6-20 letter or number";
+//   host
+"Host_now_ip"="the current server";
+"Host_add_alert_title"="IP address or name can not be blank";
+"Host_ip_title"="host";
+"Host_name_title"="name";
+"Host_add_ip"="add new server address";
+"Host_write_ip"="please entry IP address";
+"Host_write_name"="please entry server name";
+"Host_cancel_add"="cancel adding";
+"Host_sure_add"="confirm adding";
+""="";
+//   home
+"Home_is_checkin"="(on duty)";
+"Home_is_checkout"="(off duty)";
+"Home_issure_chechout"="confirm off duty?";
+"Home_checkout_alert_message"="can not go on checking after working";
+"Home_checkout_seuccess"="off-work successfully";
+"Home_sart_checkin"="start to work";
+"Home_alert_nothing"="Can not find files,please download diles then click start to work";
+"Home_download"="download files";
+"Home_alert_isloading"="downloding";
+"Home_alert_down_success"="download successfully";
+"Home_alert_down_field"="download unsuccessfully";
+"Home_alert_post_field"="please keep network good enough";
+"Home_alert_checkin_seccess"="go to work successfully";
+"Home_will_checkout"="off work rest";
+"Home_no_tel"="no emergency contact";
+"Home_alert_tel_title"="whether call emergency number";
+"Home_alert_logout_is"="logouting...";
+"Home_alert_no_name"="invalid user";
+"Home_alert_logout_field"="logout failure";
+"Home_btn_download"="download task";
+"Home_btn_record"="check records";
+"Home_btn_message"="notification";
+"Home_btn_help"="help";
+"Home_btn_logout"="logout";
+"Home_alert_shift_title"="choose job scheduling";
+
+
+//  record
+"Record_alert_issearch"="searching";
+"Record_alert_nothing"="no consistent record";
+"Record_record_datail_title"="detail records";
+"Record_record_all"="all";
+"Record_record_unsend"="unsent";
+"Record_has_items_number"="items";
+"Record_search_time_btn"="time";
+"Record_search_device_btn"="facility";
+"Record_search_field_text"="entry facility name to search";
+"Record_search_btn"="search";
+"Record_datil_device_name"="facility name:";
+"Record_datil_keep_time"="save time:";
+"Record_datil_send_time"="Send time:";
+"Record_datil_send_time_no"="Send time:unsent";
+"Record_prew_btn_title"="modity";
+//  set
+"Set_title_one"="setting";
+"Set_title_two"="system setting";
+"Set_now_ip"="current data server";
+"Set_photo_post_title"="only upload the photo by wifi";
+"Set_items_prew_title"="preview or not after patrol checking ";
+"Set_record_time_title"="save records period";
+"Set_offlinemap_title"="offline map";
+"Set_alarm_title"="alarm";
+"Set_alert_record_title_one"="keep data is less than 24 months";
+"Set_alert_record_title_two"="if you reduce the time of saving data, maybe causing some record are deleted";
+//   message
+"Message_title"="notification";
+//  time
+"Time_repeat_week"="repeat";
+"Time_time_name"="label";
+"Time_field_name_text"="entry alarm name";
+"Time_evey_one"="each Sunday";
+"Time_every_two"="each Monday";
+"Time_every_three"="each Tuesday";
+"Time_every_four"="each Wednesday";
+"Time_every_five"="each Thursday";
+"Time_every_six"="each Friday";
+"Time_every_seven"="each Saturday";
+//   task
+"Task_alert_issure_finish"="are you sure to finish this task?";
+"Task_alert_isdown"="synchronizing";
+"Task_alert_downseccess"="synchronize successfully";
+"Task_alert_downfield"="synchronize unsuccessfully";
+"Task_alert_nocheckin_title"="not start work!";
+"Task_alert_nocheckin_message"="can not execute the task";
+"Task_patrol_state_one"="patrol checking";
+"Task_patrol_state_two"="not started";
+"Task_patrol_state_three"="pause";
+"Task_patrol_state_four"="done";
+"Task_nowtask_title"="task for this job scheduling";
+"Task_othertask_title"="optional tasks";
+"Task_othertask_istime"="(in task time)";
+"Task_othertask_notime"="(have a few time) ";
+"Task_other_btn_on"="off";
+"Task_other_btn_hason"="on";
+"Task_alert_other_hason"="the task is on";
+"Task_othertask_btn_down"="synchronize task";
+"Task_othertask_btn_finish"="end task";
+//   device
+"Device_device_title"="facility";
+"Device_device_title_text"="facility list";
+"Device_map_title"="map";
+"Device_hasFinish_iswill_look"="this device is finished checking, do you want to see the result?";
+"Device_alert_noitems"="no element under this device";
+"Devcie_alert_devicestate_title"="Whether recover the facility to running status?";
+"Device_title_left"="Slide left- -facility nonuse";
+"Device_device_state_on"="status: running";
+"Device_device_state_off"="status:nonuse";
+"Device_device_mark_title"="serial number";
+"Device_alert_other_finish"="The facility has been checked!";
+"Device_alert_isno_order"="Please patrol check in order!";
+"Device_map_maplocation"="My location";
+//  items
+"Items_title"="patrol check project";
+"Itmes_alert_finish_message"="the promp box will be disappear after selecting";
+"Items_alert_btn_pre"="preview";
+"Items_alert_btn_finish"="finish patrol check";
+"Items_alert_btn_is"="continue editing";
+"Itmes_alert_sure_finish"="whether to confirm finishing patrol check";
+"Items_alert_nokeep_title"="data not be saved, if still log out?";
+"Items_title_choose_one"="please select";
+"Items_title_photo"="click to take picture";
+"Items_title_sign"="click to sign signature";
+"Items_title_word"="please input";
+"Items_title_sound"="click to record";
+"Items_title_value"="please input value";
+"Items_title_time"="click to select time";
+"Items_title_date"="click to select date";
+"Items_title_timedate"="click to select date and time";
+"Items_value_error"="project abnormal";
+"Items_btn_sign_text"="click to sign signature";
+"Items_word_text"="click to input wrod description";
+"Items_sound_btn_text"="add new record";
+"Items_delete_btn_text"="delete";
+"Items_value_field_text"="please input check result";
+"Items_value_unit"="unit";
+"Items_add_event_text"="add project event";
+"Items_event_word_text"="please input event description";
+"Items_method_standed"="check method and standard";
+"Items_btn_alltext"="Expand the full text";
+"Items_btn_noalltext"="withdraw the full text";
+"Items_btn_add_sugn"="add new signature";
+"Items_alert_sound_time_short"="record time too short";
+"Items_vvice_btn_add"="pressto record";
+"Items_device_finish_nochage"="the facility has been checked, no change is allowed";
+"Items_alert_longtime_nochange"="internal time of checking is too long , no change is allowed";
+//event
+"Event_add_title"="add new event";
+"Event_photo_too_more"="4 pictures at most";
+"Event_alert_title_nil"="event title can’t be blank";
+"Event_photo_time"="countdown of taking pictures";
+"Event_field_title_text"="please input event title";
+"Event_device_has_add"="the facility has been added";
+"Event_sound_alert_cancle"="slide up to cancle sending";
+"Event_detail_title"="event details";
+"Event_sound_isnothong"="record lost";
+//  code
+"Code_cande_is_error"="the qr code is not available";
+"Code_checkout_notask"="can’t carry out the task";
+"Code_task_nodevice"="the facility is not in the file";
+"Code_nowshift_nothe_task"="the facility is not in this schedule of job scheduling";
+"Code_thistask_nodevice"="the facility is not in this schedule";
+"Code_alert_choose_task"="select schedule which is to be excuted";
+//  appdelegate
+"App_alert_mes_title"="receive message";
+"App_alert_open_nettime"="Please open the automatic get time button!";
+""="";
+
+

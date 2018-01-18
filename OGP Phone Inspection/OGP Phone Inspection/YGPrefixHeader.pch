@@ -1,0 +1,85 @@
+//
+//  YGPrefixHeader.pch
+//  OGP Phone Inspection
+//
+//  Created by 张建伟 on 17/6/22.
+//  Copyright © 2017年 张国洋. All rights reserved.
+//
+
+#ifndef YGPrefixHeader_pch
+#define YGPrefixHeader_pch
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import "ToolModel.h"
+#import "AppDelegate.h"
+#import "RecordKeepModel.h"
+#import "YGWeakTimer.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define USERDEFAULT                [NSUserDefaults standardUserDefaults]
+#define RECT_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#define IOS_VERSION_10 (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_9_x_Max)?(YES):(NO)
+#define DEFAULT                [NSUserDefaults standardUserDefaults]
+#define LOGIN_BTN_COLOR [UIColor colorWithRed:0.32 green:0.61 blue:0.78 alpha:1.0]
+#define BACKGROUND_COLOR [UIColor colorWithRed:220/255.0 green:220/255.0 blue:220/255.0 alpha:1.0]
+#define PUSH(x) AppDelegate *appdelegate=(AppDelegate *)[UIApplication sharedApplication].delegate;[(UINavigationController*)appdelegate.window.rootViewController pushViewController:x animated:YES];
+
+#define POP AppDelegate *appdelegate=(AppDelegate *)[UIApplication sharedApplication].delegate;[(UINavigationController*)appdelegate.window.rootViewController popViewControllerAnimated:YES];
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
+
+//   正在现在的离线地图信息
+#define DOWNING_THE_OFFLINEMAP      @"DOWNING_THE_OFFLINEMAP"
+//   IP地址数组
+#define HOST_IP_ARRAY               @"HOST_IP_ARRAY"
+//   正在使用的IP地址
+#define HOST_IPING                  @"HOST_IPING"
+//   上班状态
+#define CHECK_STATE                 @"CHECK_STATE"
+//   登录信息表
+#define LOGIN_MESSAGE               [ToolModel loginMessage]
+//   登录返回信息表
+#define LOGIN_BACK                  [ToolModel loginBack]
+//   当前用户名
+#define NAMEING                     @"NAMEING"
+//    当前班次
+#define SHIFT_DICT                  @"SHIFT_DICT"
+//   当前计划（当前所有线路和设备）
+#define SCH_SITE_DEVICE_ARRAY       @"SCH_SITE_DEVICE_ARRAY"
+//   当前登陆返回信息表
+#define LOGIN_DICT                  [USERDEFAULT valueForKey:@"loginBack"]
+//    前台经度
+#define MAP_LONGNUM                 @"MAP_LONGNUM"
+//    前台纬度
+#define MAP_LUAITNUM                @"MAP_LUAITNUM"
+//    定位时间
+#define MAP_TIME                    @"MAP_TIME"
+//    登录状态
+#define IS_LOGINING                 @"IS_LOGINING"
+//    记录保存时间
+#define RECORD_KEEP_TIME            @"RECORD_KEEP_TIME"
+//   当前点击的计划内容
+#define SCH_NOW_TOUCH               @"SCH_NOW_TOUCH"
+//    离线状态
+#define OFFLINE                     @"OFFLINE"
+//     当前的闹钟数组
+#define TIMER_ARRAY                 @"TIMER_ARRAY"
+//   行迹的隐藏状态
+#define MAP_LINE_IS                 @"MAP_LINE_IS"
+//   上传时使用的班次始末时间
+#define SEND_SHIFT_TIME             @"SEND_SHIFT_TIME"
+//   网络状态
+#define NET_STATE                   @"NET_STATE"
+//   上拉标示
+#define LAST_SCH_ARRAY              @"LAST_SCH_ARRAY"
+//   下拉标示
+#define NEXT_SCH_ARRAY              @"NEXT_SCH_ARRAY"
+////   上一个班次的计划数组
+//#define LAST_ARRAY                  @"LAST_ARRAY"
+////   下一个班次的计划数组
+//#define NEXT_ARRAY                  @"NEXT_ARRAY"
+#endif /* YGPrefixHeader_pch */
